@@ -63,3 +63,4 @@ console.log('2004', myDate4.isLeapYear);
 // myDate2.isLeapYear returns true because 2000 is a leap year (divisible by 400).
 // myDate3.isLeapYear returns false because 2001 is not a leap year (not divisible by 4 or 400).
 // myDate4.isLeapYear returns true because 2004 is a leap year (divisible by 4).
+//hola
