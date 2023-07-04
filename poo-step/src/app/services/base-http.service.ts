@@ -1,15 +1,13 @@
 import axios from 'axios';
 import { UpdateProductDto } from '../dtos/product.dto';
 
-import { Category } from './../models/category.model';
-import { Product } from './../models/product.model';
+import { Category } from '../models/category.model';
+import { Product } from '../models/product.model';
 
 export class BaseHttpService<TypeClass> {
   // data: TypeClass[] = [];
 
-  constructor(
-    protected url: string
-  ) {}
+  constructor(protected url: string) {}
 
   async getAll() {
     const { data } = await axios.get<TypeClass[]>(this.url);
@@ -28,7 +26,7 @@ export class BaseHttpService<TypeClass> {
 // const service1 = new BaseHttpService<Category>();
 // service1.getAll
 
-(async ()=> {
+(async () => {
   const url1 = 'https://api.escuelajs.co/api/v1/products';
   const productService = new BaseHttpService<Product>(url1);
 
