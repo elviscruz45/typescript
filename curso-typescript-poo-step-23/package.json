@@ -1,0 +1,21 @@
+{
+  "name": "ts-poo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "ts-node": "^10.5.0",
+    "typescript": "^4.5.5"
+  },
+  "dependencies": {
+    "@faker-js/faker": "^6.0.0-alpha.5",
+    "axios": "^0.25.0",
+    "class-validator": "^0.13.2"
+  }
+}
